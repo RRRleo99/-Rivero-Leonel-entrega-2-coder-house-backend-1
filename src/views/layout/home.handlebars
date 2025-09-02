@@ -1,0 +1,7 @@
+<h1>Lista de productos</h1>
+<ul>
+    {{#each productos}}
+    <li>{{this.id}} • {{this.nombre}} • ${{this.precio}}</li>
+    {{/each}}
+</ul>
+<p><a href="/realTimeProduct">Ver productos en tiempo real</a></p>
